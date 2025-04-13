@@ -40,7 +40,7 @@ ul {
 
 .header-container {
   display: flex;
-  align-items: center
+  align-items: center;
 }
 
 .header-nav {
@@ -78,7 +78,7 @@ ul {
   gap: 40px;
   flex-grow: 1;
   justify-content: flex-start;
-  /* padding-left: 76px; */
+  padding-right: 332px;
 }
 .header-nav-item {
   padding: 24px 0px;
@@ -91,6 +91,8 @@ ul {
   color: #2e2f42;
   font-size: 16px;
   text-decoration: none;
+  padding: 24px;
+
 }
 
 /* header-address */
@@ -101,6 +103,7 @@ ul {
 .header-address-list {
   display: flex;
   gap: 40px;
+  white-space: nowrap;
 }
 
 .header-address-item {
