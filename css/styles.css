@@ -100,7 +100,7 @@ ul {
   font-style: normal;
 }
 
-.header-address-list {
+.contacts-list {
   display: flex;
   gap: 40px;
   white-space: nowrap;
