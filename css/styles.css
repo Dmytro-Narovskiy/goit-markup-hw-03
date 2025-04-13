@@ -17,6 +17,10 @@ body {
   border: 1px solid red;
 } */
 
+img {
+  display: block;
+}
+
 /* reset base */
 h1, h2, h3, h4, h5, h6, p, ul {
   margin: 0;
