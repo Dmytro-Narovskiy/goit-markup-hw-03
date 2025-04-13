@@ -98,22 +98,18 @@ ul {
 /* header-address */
 .header-address {
   font-style: normal;
+  display: flex;
+  gap: 40px;
 }
 
 .contacts-list {
-  /* display: flex;
-  gap: 40px;
-  white-space: nowrap; */
   display: flex;
   gap: 40px;
-  list-style: none;
-  padding: 0;
-  margin: 0;
   white-space: nowrap;
 }
 
 .contacts-item {
-
+ margin-right: 0;
 }
 
 .contacts-link {
