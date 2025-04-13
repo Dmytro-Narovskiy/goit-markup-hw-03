@@ -39,12 +39,13 @@ ul {
   }
 
 .header-container {
-  display: flex;
-  align-items: center
+  /* display: flex;
+  align-items: center */
 }
 
 .header-nav {
-
+  display: flex;
+  align-items: center;
 }
 
 .header-logo {
@@ -57,6 +58,7 @@ ul {
   text-transform: uppercase;
   color: #4d5ae5;
   align-items: center;
+  /* margin-right: 76px; */
 }
 
 .header-studio {
@@ -67,6 +69,7 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
+  /* margin-right: 76px; */
   
 }
 
@@ -75,7 +78,7 @@ ul {
   gap: 40px;
   flex-grow: 1;
   justify-content: flex-start;
-  padding-left: 76px;
+  /* padding-left: 76px; */
 }
 .header-nav-item {
   padding: 24px 0px;
