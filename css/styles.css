@@ -1,31 +1,44 @@
+/* base styles */
+.container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+ }
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
 
-/* header */
+/* .section {
+  border: 1px solid red;
+} */
 
-.header {
-  border-bottom: 1px solid #e7e9fc;
+/* reset base */
+h1, h2, h3, h4, h5, h6, p, ul {
+  margin: 0;
+  padding: 0;
 }
 
-.container {
-  width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  
+ul {
+  list-style: none;
+}
+
+
+
+/* header */
+.header {
+ 
 }
 
 .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
- 
 }
-
 
 .header-logo {
   text-decoration: none;
@@ -36,6 +49,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  align-items: center;
 }
 
 .header-studio {
@@ -49,11 +63,16 @@ body {
   
 }
 
-.header-list {
+.header-list-nav {
   display: flex;
   gap: 40px;
+  flex-grow: 1;
+  justify-content: flex-start;
+  padding-left: 76px;
 }
-
+.header-nav-item {
+  padding: 24px 0px;
+}
 
 .header-link {
   font-weight: 500;
@@ -64,20 +83,25 @@ body {
   text-decoration: none;
 }
 
-.address-list {
-  display: flex;
-  gap: 40px;
-  
-}
-
-
 /* header-address */
-
 .header-address {
   font-style: normal;
 }
 
-.address-item a {
+.header-address-list {
+  display: flex;
+  gap: 40px;
+}
+
+.header-address-item {
+
+}
+
+.address-link {
+
+}
+
+.header-address-item a {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -97,19 +121,40 @@ a:hover {
 
 /* main  */
 
-.section-main {
+.main {
+  text-align: center;
+  padding: 188px 0;
   background-color: #2e2f42;
 }
 
-.main-title {
+.main-section {
+  
+}
+
+.section-main-title {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  font-size: 56px;
-  background: #2e2f42;
+  font-size: 56px ;
+  
 }
+
+.main-buttons-wrapper {
+  padding-top: 48px;
+  padding-left: 164px;
+  padding-right: 163px;
+  white-space: nowrap;
+  
+}
+
+.main-button-list {
+  padding-left: 164px;
+  padding-right: 163px;
+}
+
+
 
 .click-button {
   font-weight: 500;
@@ -120,6 +165,11 @@ a:hover {
   background: #4d5ae5;
   cursor: pointer;
   font-family: "Roboto", sans-serif;
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .click-button:focus {
@@ -152,7 +202,7 @@ a:hover {
 
 /* team */
 
-.section-team {
+.team {
   background-color: #f4f4fd;
 }
 
@@ -218,7 +268,7 @@ a:hover {
 
 /* footer */
 
-.section-footer {
+.footer {
   background-color: #2e2f42;
 }
 
@@ -256,6 +306,3 @@ image {
   background-color: #2a2a2a;
 }
 
-ul {
-  list-style: none;
-}
