@@ -102,17 +102,17 @@ ul {
   gap: 40px;
 }
 
-.contacts-list {
+.header-address-list {
   display: flex;
   gap: 40px;
   white-space: nowrap;
 }
 
-.contacts-item {
+.header-address-item {
  margin-right: 0;
 }
 
-.contacts-link {
+.address-link {
   padding: 24px 0;
   font-weight: 400;
   font-size: 16px;
@@ -122,7 +122,7 @@ ul {
   text-decoration: none;
 }
 
-.contacts-item a {
+.header-address-item a {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
