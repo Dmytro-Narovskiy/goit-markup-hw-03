@@ -101,20 +101,32 @@ ul {
 }
 
 .contacts-list {
+  /* display: flex;
+  gap: 40px;
+  white-space: nowrap; */
   display: flex;
   gap: 40px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
   white-space: nowrap;
 }
 
-.header-address-item {
+.contacts-item {
 
 }
 
-.address-link {
-
+.contacts-link {
+  padding: 24px 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-decoration: none;
 }
 
-.header-address-item a {
+.contacts-item a {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
