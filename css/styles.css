@@ -116,17 +116,9 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  text-decoration: none
-}
-
-.header-address-item a {
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-  font-size: 16px;
   text-decoration: none;
 }
+
 
 /* hover-focus */
 a:focus {
