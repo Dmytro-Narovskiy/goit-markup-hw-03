@@ -106,8 +106,7 @@ ul {
 .header-address-list {
   display: flex;
   gap: 40px;
-  white-space: nowrap;
-}
+ }
 
 .header-address-item {
  margin-right: 0;
