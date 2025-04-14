@@ -282,6 +282,7 @@ a:hover {
 
 .portfolio {
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .portfolio-title {
@@ -326,6 +327,7 @@ a:hover {
 /* footer */
 
 .footer {
+  padding: 100px 0;
   background-color: #2e2f42;
 }
 
@@ -338,6 +340,8 @@ a:hover {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .studio-footer {
