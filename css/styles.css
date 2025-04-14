@@ -201,6 +201,7 @@ a:hover {
 }
 
 .features-nav-item {
+  width: calc((100% - 72px) / 4);
 }
   
 
