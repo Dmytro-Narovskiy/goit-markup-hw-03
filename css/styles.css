@@ -13,9 +13,9 @@ body {
   background-color: #ffffff;
 }
 
-/* .section {
+.section {
   border: 1px solid red;
-} */
+}
 
 img {
   display: block;
@@ -149,6 +149,7 @@ a:hover {
   text-align: center;
   color: #fff;
   font-size: 56px ;
+  max-width: 496px;
   
 }
 
@@ -176,11 +177,11 @@ a:hover {
   background: #4d5ae5;
   cursor: pointer;
   font-family: "Roboto", sans-serif;
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
+  display: block;
+  min-width: 169px;
   height: 56px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  border: none;
+  border-radius: 4px;
 }
 
 .click-button:focus {
