@@ -240,6 +240,10 @@ a:hover {
   margin-bottom: 72px;
 }
 
+.team-worker {
+  padding: 32px 0;
+}
+
 .team-nav-list {
   display: flex;
   gap: 24px;
@@ -248,9 +252,10 @@ a:hover {
 .team-nav-item {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  background-color: #ffffff;
 }
 
-.team-worker {
+.team-card-text {
   padding: 32px 0;
 }
 
@@ -261,6 +266,7 @@ a:hover {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .team-descr {
