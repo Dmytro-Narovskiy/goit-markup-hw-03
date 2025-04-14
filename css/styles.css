@@ -13,9 +13,9 @@ body {
   background-color: #ffffff;
 }
 
-.section {
-  /* border: 1px solid red; */
-}
+/* .section {
+  border: 1px solid red;
+} */
 
 img {
   display: block;
@@ -280,6 +280,10 @@ a:hover {
 
 /* portfolio */
 
+.portfolio {
+  padding-top: 120px;
+}
+
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
@@ -288,7 +292,20 @@ a:hover {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
+
+.portfolio-nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.portfolio-nav-item {
+  width: calc((100% - 48px) / 3);
+}
+ 
 
 .portfolio-subtitle {
   font-weight: 500;
