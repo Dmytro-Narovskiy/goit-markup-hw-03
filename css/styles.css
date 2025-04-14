@@ -80,6 +80,7 @@ ul {
   justify-content: flex-start;
   padding-right: 332px;
 }
+
 .header-nav-item {
   padding: 24px 0px;
 }
@@ -91,8 +92,8 @@ ul {
   color: #2e2f42;
   font-size: 16px;
   text-decoration: none;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
 
 }
 
@@ -104,10 +105,10 @@ ul {
 .header-address-list {
   display: flex;
   gap: 40px;
- }
+}
 
 .header-address-item {
- }
+}
 
 .address-link {
   padding: 24px 0;
