@@ -99,9 +99,7 @@ ul {
 /* header-address */
 .header-address {
   font-style: normal;
-  display: flex;
-  gap: 40px;
-}
+ }
 
 .header-address-list {
   display: flex;
@@ -109,8 +107,7 @@ ul {
  }
 
 .header-address-item {
- margin-right: 0;
-}
+ }
 
 .address-link {
   padding: 24px 0;
@@ -119,7 +116,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  text-decoration: none;
+  text-decoration: none
 }
 
 .header-address-item a {
