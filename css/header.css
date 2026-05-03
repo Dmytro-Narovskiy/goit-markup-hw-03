@@ -1,0 +1,44 @@
+.header-nav-item {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.header-item-paragraph {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.header-item-paragraph:hover,
+.header-item-paragraph:focus {
+  color: var(--ocean);
+}
+
+.header-address-list {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.header-address-item a:hover,
+.header-address-item a:focus {
+  color: var(--ocean);
+}
+
+.header-address-email {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+.header-address-tel {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
