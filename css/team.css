@@ -1,14 +1,16 @@
 .section-team {
   background-color: var(--cloud);
+  height: 732px;
 }
 
 .team-heading {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11111;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: var(--navy-blue);
+  padding-top: 120px;
+  padding-bottom: 72px;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
 }
 
 .team-item {
@@ -16,19 +18,12 @@
 }
 
 .team-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: var(--navy-blue);
+  padding-top: 32px;
+  padding-right: 16px;
+  padding-bottom: 8px;
+  padding-left: 16px;
 }
 
 .team-employes {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: var(--slate);
+  padding-bottom: 32px;
 }
