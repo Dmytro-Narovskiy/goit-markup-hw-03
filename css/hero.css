@@ -1,6 +1,7 @@
 .section-hero {
   background-color: var(--navy-blue);
   height: 600px;
+  padding-top: 188px;
 }
 
 .hero-title {
@@ -10,8 +11,6 @@
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--white);
-
-  padding-top: 188px;
   margin-bottom: 48px;
 }
 
