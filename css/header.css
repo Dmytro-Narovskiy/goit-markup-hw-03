@@ -1,5 +1,12 @@
-.header-container {
+header {
   border-bottom: 1px solid var(--cornflower);
+}
+
+.header-logo {
+  padding-right: 76px;
+}
+
+.header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -9,7 +16,6 @@
 
 .header-nav {
   flex-grow: 1;
-  padding-left: 76px;
 }
 
 .header-nav-list {
