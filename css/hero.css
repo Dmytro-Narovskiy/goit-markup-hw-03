@@ -1,6 +1,6 @@
 .section-hero {
   background-color: var(--navy-blue);
-  height: 600px;
+
   padding-top: 188px;
   padding-bottom: 188px;
 }
@@ -24,7 +24,7 @@
   background-color: var(--iris);
   cursor: pointer;
 
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: center;
   flex-direction: row;
