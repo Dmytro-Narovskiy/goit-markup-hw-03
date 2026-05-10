@@ -1,9 +1,21 @@
-.features-list {
+.section-features {
   margin-top: 120px;
   margin-bottom: 120px;
+}
+
+.features-list {
   display: flex;
+  column-gap: 24px;
 }
 
 .features-item {
-  padding-right: 24px;
+}
+
+.features-title {
+  padding-bottom: 8px;
+}
+
+.features-title,
+.features-paragraph {
+  text-align: left;
 }
