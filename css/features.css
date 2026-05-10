@@ -1,6 +1,6 @@
 .section-features {
-  margin-top: 120px;
-  margin-bottom: 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .features-list {
@@ -9,6 +9,7 @@
 }
 
 .features-item {
+  max-width: 264px;
 }
 
 .features-title {
